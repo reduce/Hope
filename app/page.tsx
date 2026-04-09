@@ -21,13 +21,9 @@ export default function Home() {
       {/* Navbar */}
       <nav className="fixed top-0 w-full z-50 border-b border-border bg-background/80 backdrop-blur-xl">
         <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="relative">
-              <div className="w-7 h-7 rounded-full bg-hope/10 border border-hope/30 flex items-center justify-center">
-                <Heart size={12} className="text-hope fill-hope/30" />
-              </div>
-              <div className="absolute inset-0 rounded-full border border-hope/20 animate-pulse-ring" />
-            </div>
+          <div className="flex items-center gap-2.5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.jpg" alt="Hope" className="w-8 h-8 rounded-full object-cover" />
             <span className="font-bold text-sm tracking-tight">Hope</span>
             <span className="text-[10px] font-mono text-hope/60 bg-hope/5 border border-hope/10 rounded-full px-1.5 py-0.5">AI</span>
           </div>
@@ -217,9 +213,8 @@ export default function Home() {
       <section className="py-24 px-6 relative">
         <div className="absolute inset-0 bg-hope/3" />
         <div className="max-w-xl mx-auto text-center relative">
-          <div className="w-16 h-16 rounded-full bg-hope/10 border border-hope/25 flex items-center justify-center mx-auto mb-6 animate-float">
-            <Heart size={28} className="text-hope fill-hope/20" />
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo.jpg" alt="Hope" className="w-20 h-20 rounded-full object-cover mx-auto mb-6 animate-float glow" />
           <h2 className="text-3xl sm:text-4xl font-black mb-4">
             Tired of the scroll?
           </h2>
@@ -243,7 +238,8 @@ export default function Home() {
       <footer className="border-t border-border py-6 px-6">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Heart size={10} className="text-hope" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.jpg" alt="Hope" className="w-4 h-4 rounded-full object-cover" />
             <span className="text-xs text-muted">Hope AI · Finding good news so you don&apos;t have to</span>
           </div>
           <span className="text-[10px] text-muted/50">Built with 💚</span>
