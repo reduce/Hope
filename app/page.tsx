@@ -1,4 +1,12 @@
-import { Heart, TrendingUp, Sparkles, ArrowRight, Twitter, Zap, Globe, Shield } from "lucide-react";
+import { Heart, TrendingUp, Sparkles, ArrowRight, Zap, Globe, Shield } from "lucide-react";
+
+function XIcon({ size = 16 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
+}
 
 const goodNews = [
   "Researchers achieve breakthrough in fusion energy 🌱",
@@ -29,7 +37,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-4">
             <a href="https://x.com/racksdotcash" target="_blank" rel="noopener noreferrer" className="text-xs text-muted hover:text-hope transition-colors flex items-center gap-1">
-              <Twitter size={12} />
+              <XIcon size={12} />
               Follow
             </a>
             <a href="#how" className="text-xs text-muted hover:text-foreground transition-colors">How it works</a>
@@ -66,7 +74,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group flex items-center gap-2 px-7 py-3.5 rounded-xl bg-hope text-black font-bold text-sm hover:bg-hope-dim transition-all active:scale-95 glow"
             >
-              <Twitter size={15} />
+              <XIcon size={15} />
               Follow Hope on X
               <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
             </a>
@@ -227,7 +235,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-hope text-black font-bold text-sm hover:bg-hope-dim transition-all active:scale-95 glow"
           >
-            <Twitter size={16} />
+            <XIcon size={16} />
             Follow Hope on X
             <ArrowRight size={14} />
           </a>
