@@ -28,7 +28,7 @@ export default function Home() {
             <span className="text-[10px] font-mono text-hope/60 bg-hope/5 border border-hope/10 rounded-full px-1.5 py-0.5">AI</span>
           </div>
           <div className="flex items-center gap-4">
-            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="text-xs text-muted hover:text-hope transition-colors flex items-center gap-1">
+            <a href="https://x.com/racksdotcash" target="_blank" rel="noopener noreferrer" className="text-xs text-muted hover:text-hope transition-colors flex items-center gap-1">
               <Twitter size={12} />
               Follow
             </a>
@@ -61,7 +61,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 animate-fade-up" style={{ animationDelay: "0.3s" }}>
             <a
-              href="https://x.com"
+              href="https://x.com/racksdotcash"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 px-7 py-3.5 rounded-xl bg-hope text-black font-bold text-sm hover:bg-hope-dim transition-all active:scale-95 glow"
@@ -222,7 +222,7 @@ export default function Home() {
             Follow Hope and let the algorithm work for you for once. Good news, no subscription, no spam — just hope.
           </p>
           <a
-            href="https://x.com"
+            href="https://x.com/racksdotcash"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-hope text-black font-bold text-sm hover:bg-hope-dim transition-all active:scale-95 glow"
